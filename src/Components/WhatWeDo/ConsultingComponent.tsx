@@ -1,7 +1,7 @@
-const Consulting = () => {
+const ConsultingComponent = () => {
     return (
         <div>Consulting</div>
     )
 }
 
-export default Consulting
+export default ConsultingComponent
