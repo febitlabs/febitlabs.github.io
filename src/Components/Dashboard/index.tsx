@@ -1,8 +1,12 @@
-import Tabs from "../Navbar/Tabs";
+import Tabs from '../Navbar/Tabs';
+import FebitCarousel from '../Carousel';
 
 const Dashboard = () => {
   return (
-  <Tabs/>
-  )
+    <>
+      <Tabs />
+      <FebitCarousel />
+    </>
+  );
 };
 export default Dashboard;
