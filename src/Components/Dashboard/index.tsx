@@ -1,4 +1,8 @@
+import Tabs from "../Navbar/Tabs";
+
 const Dashboard = () => {
-  return <h1>FebitLabs</h1>;
+  return (
+  <Tabs/>
+  )
 };
 export default Dashboard;
