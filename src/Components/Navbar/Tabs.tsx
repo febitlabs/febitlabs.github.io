@@ -1,6 +1,5 @@
 import { Menubar } from 'primereact/menubar';
 import { InputText } from 'primereact/inputtext';
-import { Link } from 'react-router-dom';
 
 const Tabs = () => {
     const items = [
@@ -10,18 +9,33 @@ const Tabs = () => {
             items: [
                 {
                     label: 'Consulting',
+                    command:() => {
+                        window.location.href = "/consulting"
+                    }
                 },
                 {
                     label: 'Engineering',
+                    command:() => {
+                        window.location.href = "/engineering"
+                    }
                 },
                 {
                     label: 'Operations',
+                    command:() => {
+                        window.location.href = "/operations"
+                    }
                 },
                 {
                     label: 'Optimization',
+                    command:() => {
+                        window.location.href = "/optimization"
+                    }
                 },
                 {
                     label: 'Healthcare',
+                    command:() => {
+                        window.location.href = "/healthcare"
+                    }
                 }
             ]
         },
@@ -31,21 +45,36 @@ const Tabs = () => {
             items: [
                 {
                     label: 'AI/ML & DataOps',
+                    command:() => {
+                        window.location.href = "/ai-ml-dataops"
+                    }
                 },
                 {
                     label: 'DevSecOps, SRE & AIOps',
+                    command:() => {
+                        window.location.href = "/devsecops-aiops"
+                    }
                 },
                 {
                     label: 'Digital Transformation',
+                    command:() => {
+                        window.location.href = "/digital-transformation"
+                    }
                 },
                 {
                     label: 'Mobile Applications',
+                    command:() => {
+                        window.location.href = "/mobile-applications"
+                    }
                 },
             ]
         },
         {
             label: 'Engagement Model',
             icon: 'pi pi-fw pi-users',
+            command:() => {
+                window.location.href = "/engagement-model"
+            }
         },
         {
             label: 'About',
@@ -53,9 +82,15 @@ const Tabs = () => {
             items: [
                 {
                     label: 'Founder',
+                    command:() => {
+                        window.location.href = "/founder"
+                    }
                 },
                 {
                     label: 'Contact',
+                    command:() => {
+                        window.location.href = "/contact"
+                    }
                 }
             ]
         },
@@ -64,19 +99,31 @@ const Tabs = () => {
             icon: 'pi pi-fw pi-th-large',
             items: [
                 {
-                    label: 'Work Worlwide',
+                    label: 'Work Worldwide',
+                    command:() => {
+                        window.location.href = "/work-worldwide"
+                    }
                 },
                 {
                     label: 'Referral Program',
+                    command:() => {
+                        window.location.href = "/referral-program"
+                    }
                 },
                 {
                     label: 'Job Openings',
+                    command:() => {
+                        window.location.href = "/job-openings"
+                    }
                 }
             ]
         },
         {
             label: 'Insights',
-            icon: 'pi pi-fw pi-chart-bar'
+            icon: 'pi pi-fw pi-chart-bar',
+            command:() => {
+                window.location.href = "/insights"
+            }
         }
     ];
 

@@ -1,17 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
-import {Dashboard} from './Components';
+import Router from './routes/router';
+import Tabs from './Components/Navbar/Tabs';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-        </Routes>
-      </Router>
+      <Tabs/>
+      <Router/>
     </div>
   );
 }
