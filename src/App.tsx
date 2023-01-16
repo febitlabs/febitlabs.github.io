@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'primeicons/primeicons.css';
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 import {Dashboard} from './Components';
 
