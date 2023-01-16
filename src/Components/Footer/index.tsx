@@ -1,57 +1,72 @@
 import styles from './styles.module.scss';
-// import {Button, Col, Row} from 'react-bootstrap';
-// // import {Facebook, Linkedin, Instagram} from 'react-bootstrap-icons';
-// const Footer = () => {
-//   return (
-//     <Row className={styles.footer}>
-//       <Col className={styles.columns}>
-//         <h4>About Us</h4>
-//         <p>
-//           Ready to book with us? Have a question about our rooms or services?
-//           We'll be happy to help!
-//         </p>
-//         <h4>Social Media</h4>
-//         <p>
-//           <a
-//             className={styles.socialMediaLink}
-//             href="facebook.com/pages/category/Hotel-Services-Company/Bedoff-113730700369174/"
-//           >
-//             <Facebook className={styles.socialMediaIcon} />
-//           </a>{' '}
-//           <a
-//             className={styles.socialMediaLink}
-//             href="https://www.instagram.com/bedoff_ig/"
-//           >
-//             <Instagram className={styles.socialMediaIcon} />
-//           </a>{' '}
-//           <a className={styles.socialMediaLink} href="">
-//             <Linkedin className={styles.socialMediaIcon} />
-//           </a>
-//         </p>
-//       </Col>
-//       <Col className={styles.columns}>
-//         <h4>Contact Us</h4>
-//         <p>B-17, First Floor, Home Solution Mall, Sakchi, Jamshedpur-831006</p>
-//         <br />
-//         <p>reservations@bedoff.com</p>
-//         <p>+91 8197723127</p>
-//       </Col>
-//       <Col className={styles.columns}>
-//         <h4>Map</h4>
-//         <a
-//           className={styles.Map}
-//           href="https://www.google.com/maps/place/Bedoff+Travels/@22.7783686,86.1782435,17z/data=!3m1!4b1!4m5!3m4!1s0x39f5e383e1ad2ff1:0xdfff220bf7844445!8m2!3d22.7783602!4d86.1804297"
-//           target="_blank"
-//         >
-//           <img src="images\map.svg" className={styles.Map} />
-//         </a>
-//         <p>Front desk hours</p>
-//         <p>9:00 am - 7:00pm</p>
-//         <Button className={styles.bookNow} href="/booking">
-//           BOOK NOW
-//         </Button>
-//       </Col>
-//     </Row>
-//   );
-// };
-// export default Footer;
+import {Button, Col, Row} from 'react-bootstrap';
+const Footer = () => {
+  return (
+    <div className={styles.footerDiv}>
+      <Row className={styles.footer}>
+        <Col className={styles.columns}>
+          <img src="/images/FebitLabs_Logo.jpeg" width={120} height={30} />
+          <p>
+            We accelerate your business transformation by leveraging best fit
+            CLOUD NATIVE technologies wherever feasible.
+          </p>
+          <p>
+            We are DIGITAL consultants who partner with you to solve & deliver.
+          </p>
+          {/* <h4>Social Media</h4>
+        <p>
+          <a
+            className={styles.socialMediaLink}
+            href="facebook.com/pages/category/Hotel-Services-Company/Bedoff-113730700369174/"
+          >
+            <div className={styles.socialMediaIcon} />
+          </a>{' '}
+          <a
+            className={styles.socialMediaLink}
+            href="https://www.instagram.com/bedoff_ig/"
+          >
+            <div className={styles.socialMediaIcon} />
+          </a>{' '}
+          <a className={styles.socialMediaLink} href="">
+            <div className={styles.socialMediaIcon} />
+          </a>
+        </p> */}
+        </Col>
+        <Col className={styles.columns}>
+          <h4>Our Brands</h4>
+          <h2>RearPortal</h2>
+          {/* <p>B-17, First Floor, Home Solution Mall, Sakchi, Jamshedpur-831006</p>
+        <br />
+        <p>reservations@bedoff.com</p>
+        <p>+91 8197723127</p> */}
+        </Col>
+        <Col className={styles.columns}>
+          <h4>Instagram</h4>
+        </Col>
+        <Col className={styles.columns}>
+          <h4>Join The Newsletter</h4>
+          <p>
+            Please share your email and we will keep you updated with the latest
+            on our side.
+          </p>
+          <Button className={styles.bookNow} href="/booking">
+            BOOK NOW
+          </Button>
+        </Col>
+      </Row>
+      <hr />
+      <Row className={styles.footer}>
+        <Col>
+          ©2022 FebitLabs Technology Consulting Pvt. Ltd. & its Global
+          Affiliates including StatusNeo Inc. All Rights Reserved
+        </Col>
+        <Col>
+          <a>Terms Of Use</a>
+          <a>Privacy Policy</a>
+        </Col>
+        <Col>Follow us</Col>
+      </Row>
+    </div>
+  );
+};
+export default Footer;

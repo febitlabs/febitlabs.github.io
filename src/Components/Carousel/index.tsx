@@ -16,7 +16,7 @@ const FebitCarousel = () => {
         <img
           className={styles.carouselImage}
           src={product.image}
-          width="100%"
+          width={100}
           height={550}
         />
         <div className={styles.slideContent}>
@@ -35,7 +35,7 @@ const FebitCarousel = () => {
     <Carousel
       value={content}
       itemTemplate={itemTemplate}
-      autoplayInterval={5000}
+      autoplayInterval={10000}
       numVisible={1}
       numScroll={1}
       circular
