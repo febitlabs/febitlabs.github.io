@@ -1,22 +1,22 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Dashboard } from '../Components';
-import ContactComponent from '../Components/About/ContactComponent';
-import FounderComponent from '../Components/About/FounderComponent';
-import AIMLDataopsComponent from '../Components/Accelerated/AIMLDataopsComponent';
-import DevSecOpsAIOpsComponent from '../Components/Accelerated/DevSecOpsAIOpsComponent';
-import DigitalTransformationComponent from '../Components/Accelerated/DigitalTransformationComponent';
-import MobileApplicationsComponent from '../Components/Accelerated/MobileApplicationsComponent';
-import JobOpeningsComponent from '../Components/Carrers/JobOpeningsComponent';
-import ReferralProgramComponent from '../Components/Carrers/ReferralProgramComponent';
-import WorkWorldwideComponent from '../Components/Carrers/WorkWorldwideComponent';
-import EngagementModelComponent from '../Components/EngagementModel/EngagementModelComponent';
-import InsightsComponent from '../Components/Insights/InsightsComponent';
+import ContactComponent from '../Components/about/ContactComponent';
+import FounderComponent from '../Components/about/FounderComponent';
+import AIMLDataopsComponent from '../Components/accelerated/AIMLDataopsComponent';
+import DevSecOpsAIOpsComponent from '../Components/accelerated/DevSecOpsAIOpsComponent';
+import DigitalTransformationComponent from '../Components/accelerated/DigitalTransformationComponent';
+import MobileApplicationsComponent from '../Components/accelerated/MobileApplicationsComponent';
+import JobOpeningsComponent from '../Components/carrers/JobOpeningsComponent';
+import ReferralProgramComponent from '../Components/carrers/ReferralProgramComponent';
+import WorkWorldwideComponent from '../Components/carrers/WorkWorldwideComponent';
+import EngagementModelComponent from '../Components/engagement-model/EngagementModelComponent';
+import InsightsComponent from '../Components/insights/InsightsComponent';
 import Tabs from '../Components/Navbar/Tabs';
-import ConsultingComponent from '../Components/WhatWeDo/ConsultingComponent';
-import EngineeringComponent from '../Components/WhatWeDo/EngineeringComponent';
-import HealthcareComponent from '../Components/WhatWeDo/HealthcareComponent';
-import OperationsComponent from '../Components/WhatWeDo/OperationsComponent';
-import OptimizationComponent from '../Components/WhatWeDo/OptimizationComponent';
+import ConsultingComponent from '../Components/what-we-do/ConsultingComponent';
+import EngineeringComponent from '../Components/what-we-do/EngineeringComponent';
+import HealthcareComponent from '../Components/what-we-do/HealthcareComponent';
+import OperationsComponent from '../Components/what-we-do/OperationsComponent';
+import OptimizationComponent from '../Components/what-we-do/OptimizationComponent';
 
 const Router = () => {
     return (
