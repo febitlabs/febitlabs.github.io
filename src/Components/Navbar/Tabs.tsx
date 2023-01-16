@@ -1,7 +1,9 @@
 import { Menubar } from 'primereact/menubar';
 import { InputText } from 'primereact/inputtext';
+import { useNavigate } from 'react-router-dom';
 
 const Tabs = () => {
+    const navigate = useNavigate()
     const items = [
         {
             label: 'What We Do',
@@ -10,31 +12,31 @@ const Tabs = () => {
                 {
                     label: 'Consulting',
                     command:() => {
-                        window.location.href = "/consulting"
+                        navigate("/consulting");
                     }
                 },
                 {
                     label: 'Engineering',
                     command:() => {
-                        window.location.href = "/engineering"
+                        navigate("/engineering");
                     }
                 },
                 {
                     label: 'Operations',
                     command:() => {
-                        window.location.href = "/operations"
+                        navigate("/operations");
                     }
                 },
                 {
                     label: 'Optimization',
                     command:() => {
-                        window.location.href = "/optimization"
+                        navigate("/optimization");
                     }
                 },
                 {
                     label: 'Healthcare',
                     command:() => {
-                        window.location.href = "/healthcare"
+                        navigate("/healthcare");
                     }
                 }
             ]
@@ -46,25 +48,25 @@ const Tabs = () => {
                 {
                     label: 'AI/ML & DataOps',
                     command:() => {
-                        window.location.href = "/ai-ml-dataops"
+                        navigate("/ai-ml-dataops");
                     }
                 },
                 {
                     label: 'DevSecOps, SRE & AIOps',
                     command:() => {
-                        window.location.href = "/devsecops-aiops"
+                        navigate("/devsecops-aiops");
                     }
                 },
                 {
                     label: 'Digital Transformation',
                     command:() => {
-                        window.location.href = "/digital-transformation"
+                        navigate("/digital-transformation");
                     }
                 },
                 {
                     label: 'Mobile Applications',
                     command:() => {
-                        window.location.href = "/mobile-applications"
+                        navigate("/mobile-applications");
                     }
                 },
             ]
@@ -73,7 +75,7 @@ const Tabs = () => {
             label: 'Engagement Model',
             icon: 'pi pi-fw pi-users',
             command:() => {
-                window.location.href = "/engagement-model"
+                navigate("/engagement-model");
             }
         },
         {
@@ -83,13 +85,13 @@ const Tabs = () => {
                 {
                     label: 'Founder',
                     command:() => {
-                        window.location.href = "/founder"
+                        navigate("/founder");
                     }
                 },
                 {
                     label: 'Contact',
                     command:() => {
-                        window.location.href = "/contact"
+                        navigate("/contact");
                     }
                 }
             ]
@@ -101,19 +103,19 @@ const Tabs = () => {
                 {
                     label: 'Work Worldwide',
                     command:() => {
-                        window.location.href = "/work-worldwide"
+                        navigate("/work-worldwide");
                     }
                 },
                 {
                     label: 'Referral Program',
                     command:() => {
-                        window.location.href = "/referral-program"
+                        navigate("/referral-program");
                     }
                 },
                 {
                     label: 'Job Openings',
                     command:() => {
-                        window.location.href = "/job-openings"
+                        navigate("/job-openings");
                     }
                 }
             ]
@@ -122,11 +124,12 @@ const Tabs = () => {
             label: 'Insights',
             icon: 'pi pi-fw pi-chart-bar',
             command:() => {
-                window.location.href = "/insights"
+                navigate("/insights");
             }
         }
     ];
 
+    // Logo should be changes once its finalized
     const start = <img alt="logo" src="https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png" height="40" width="200" className="mr-2"></img>;
     const end = <InputText placeholder="Search" type="text" />;
 

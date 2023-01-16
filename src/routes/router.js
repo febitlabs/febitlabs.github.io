@@ -11,6 +11,7 @@ import ReferralProgramComponent from '../Components/Carrers/ReferralProgramCompo
 import WorkWorldwideComponent from '../Components/Carrers/WorkWorldwideComponent';
 import EngagementModelComponent from '../Components/EngagementModel/EngagementModelComponent';
 import InsightsComponent from '../Components/Insights/InsightsComponent';
+import Tabs from '../Components/Navbar/Tabs';
 import ConsultingComponent from '../Components/WhatWeDo/ConsultingComponent';
 import EngineeringComponent from '../Components/WhatWeDo/EngineeringComponent';
 import HealthcareComponent from '../Components/WhatWeDo/HealthcareComponent';
@@ -20,6 +21,7 @@ import OptimizationComponent from '../Components/WhatWeDo/OptimizationComponent'
 const Router = () => {
     return (
       <BrowserRouter>
+      <Tabs/>
         <Routes>
           <Route path="/" element={<Dashboard/>} />
           <Route path="/consulting" element={<ConsultingComponent/>} />
