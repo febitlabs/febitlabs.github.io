@@ -6,7 +6,7 @@ import {Container} from 'react-bootstrap';
 const Dashboard = () => {
   return (
     <>
-      <Tabs />
+      {/* <Tabs /> */}
       <FebitCarousel />
       <Footer />
     </>

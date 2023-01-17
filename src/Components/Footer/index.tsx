@@ -13,32 +13,10 @@ const Footer = () => {
           <p>
             We are DIGITAL consultants who partner with you to solve & deliver.
           </p>
-          {/* <h4>Social Media</h4>
-        <p>
-          <a
-            className={styles.socialMediaLink}
-            href="facebook.com/pages/category/Hotel-Services-Company/Bedoff-113730700369174/"
-          >
-            <div className={styles.socialMediaIcon} />
-          </a>{' '}
-          <a
-            className={styles.socialMediaLink}
-            href="https://www.instagram.com/bedoff_ig/"
-          >
-            <div className={styles.socialMediaIcon} />
-          </a>{' '}
-          <a className={styles.socialMediaLink} href="">
-            <div className={styles.socialMediaIcon} />
-          </a>
-        </p> */}
         </Col>
         <Col className={styles.columns}>
           <h4>Our Brands</h4>
           <h2>RearPortal</h2>
-          {/* <p>B-17, First Floor, Home Solution Mall, Sakchi, Jamshedpur-831006</p>
-        <br />
-        <p>reservations@bedoff.com</p>
-        <p>+91 8197723127</p> */}
         </Col>
         <Col className={styles.columns}>
           <h4>Instagram</h4>
@@ -58,7 +36,7 @@ const Footer = () => {
       <Row className={styles.footer}>
         <Col>
           ©2022 FebitLabs Technology Consulting Pvt. Ltd. & its Global
-          Affiliates including StatusNeo Inc. All Rights Reserved
+          Affiliates including FebitLabs Inc. All Rights Reserved
         </Col>
         <Col>
           <a>Terms Of Use</a>

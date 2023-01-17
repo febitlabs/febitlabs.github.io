@@ -1,7 +1,5 @@
 import './App.css';
-import 'primeicons/primeicons.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
+import Router from './routes/router';
 
 function App() {
   return (
