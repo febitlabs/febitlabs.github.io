@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.p-carousel-prev{
+  position: absolute !important;
+  z-index: 1 !important;
+}
+.p-carousel-next{
+  position: absolute !important;
+ right: 0 !important;
+}
+.p-carousel-indicators{
+  display: none !important;
+}

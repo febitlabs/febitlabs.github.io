@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    padding: 2rem;
+    // background-color: #363636;
+    color: white;
+    // margin-top: 1rem;
+}
+.footerDiv{
+    background-color: #363636;
+}
+.columns{
+    // margin-right: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-align: justify;
+    justify-content: left;
+}
+.bookNow{
+    background-color: #4ED176;
+    border: 0;
+    width: 65%;
+    padding: 0.6rem;
+}
+.socialMediaLink{
+    margin-right: 1rem;
+}
+.socialMediaIcon{
+   color: #ffff;
+}
+.Map{
+    border-radius: 10px;
+    height: 100px;
+
+}
+hr{
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+@media screen and (max-width:376px) {
+    .footer{
+        padding: 1rem;
+    }
+}
+    
