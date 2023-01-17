@@ -4,7 +4,7 @@ const StackComponent = () => {
             <div className="col-6 flex justify-content-center">
                 <div className="align-items-center  p-8">
                     <div>
-                        <span className="inline-block bg-blue-600" style={{'height': '2px', 'width': '40px'}}></span>
+                        <span className="inline-block bg-blue-600" style={{'height': '2px', 'width': '40px', 'verticalAlign': 'middle'}}></span>
                         <span> ARCHITECTURE ANATOMY</span>
                     </div>
                     <div>
@@ -13,7 +13,7 @@ const StackComponent = () => {
                 </div>
             </div>
             <div className="col-6">
-            <img src="/images/CloudNativeStack.png" width={'90%'}/>
+            <img alt="" src="/images/CloudNativeStack.png" width={'90%'}/>
             </div>
         </div>
     )

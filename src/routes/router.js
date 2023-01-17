@@ -2,6 +2,7 @@ import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import {
   Dashboard,
   Tabs,
+  Footer,
   JobOpeningsComponent,
   InsightsComponent,
   OptimizationComponent,
@@ -60,6 +61,7 @@ const Router = () => {
 
         <Route path="/insights" element={<InsightsComponent />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
