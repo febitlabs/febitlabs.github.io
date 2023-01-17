@@ -1,5 +1,6 @@
 import './App.css';
 import Router from './routes/router';
+import 'primeflex/primeflex.scss';
 
 function App() {
   return (
