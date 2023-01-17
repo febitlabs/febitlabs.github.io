@@ -1,7 +1,6 @@
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import {
   Dashboard,
-  FebitCarousel,
   Tabs,
   JobOpeningsComponent,
   InsightsComponent,

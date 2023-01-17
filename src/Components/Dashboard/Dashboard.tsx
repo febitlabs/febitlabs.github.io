@@ -1,6 +1,6 @@
 import Tabs from '../Navbar/Tabs';
-import FebitCarousel from '../Carousel';
-import Footer from '../Footer';
+import FebitCarousel from '../Carousel/Carousel';
+import Footer from '../Footer/Footer';
 
 const Dashboard = () => {
   return (

@@ -35,7 +35,7 @@ const FebitCarousel = () => {
     <Carousel
       value={content}
       itemTemplate={itemTemplate}
-      autoplayInterval={10000}
+      autoplayInterval={5000}
       numVisible={1}
       numScroll={1}
       circular

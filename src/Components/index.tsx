@@ -1,5 +1,5 @@
-import Dashboard from './Dashboard';
-import FebitCarousel from './Carousel';
+import Dashboard from './Dashboard/Dashboard';
+import FebitCarousel from './Carousel/Carousel';
 import ContactComponent from './About/ContactComponent';
 import FounderComponent from './About/FounderComponent';
 import AIMLDataopsComponent from './Accelerated/AIMLDataopsComponent';
@@ -17,8 +17,6 @@ import OperationsComponent from './what-we-do/OperationsComponent';
 import OptimizationComponent from './what-we-do/OptimizationComponent';
 import InsightsComponent from './Insights/InsightsComponent';
 import Tabs from './Navbar/Tabs';
-
-// import Dashboard from './dashboard';
 
 export {
   Dashboard,
