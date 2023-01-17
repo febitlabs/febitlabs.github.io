@@ -1,3 +1,5 @@
+import TabTitleComponent from "../Dashboard/TabTitleComponent"
+
 const EngagementModelComponent = () => {
     const content = [
         {
@@ -25,21 +27,24 @@ const EngagementModelComponent = () => {
         }
     ]
     return (
-        <div className="grid">
-            <div className="col-12 flex">
-                {content.map((sub) => (
-                    <div className="col-6 p-8">
-                        <i className={sub.icon} style={{ 'fontSize': '2em' }}></i>
-                        <p className="text-3xl font-bold">{sub.title}</p>
-                        {sub.listItem.map((item) => (
-                            <div className="text-500" >
-                                <i className="pi pi-ellipsis-h"></i>
-                                <div>{item}</div>
-                            </div>
-                        ))}
-                    </div>
-                ))
-                }
+        <div>
+            <TabTitleComponent mainTitle="" title="Engagement Model" />
+            <div className="grid">
+                <div className="col-12 flex">
+                    {content.map((sub) => (
+                        <div className="col-6 p-8">
+                            <i className={sub.icon} style={{ 'fontSize': '2em' }}></i>
+                            <p className="text-3xl font-bold">{sub.title}</p>
+                            {sub.listItem.map((item) => (
+                                <div className="text-500" >
+                                    <i className="pi pi-ellipsis-h"></i>
+                                    <div>{item}</div>
+                                </div>
+                            ))}
+                        </div>
+                    ))
+                    }
+                </div>
             </div>
         </div>
     )
