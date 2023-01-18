@@ -1,6 +1,10 @@
+import TabTitleComponent from "../Dashboard/TabTitleComponent"
+
 const MobileApplicationsComponent = () => {
     return (
-        <div>Mobile Applications Component</div>
+        <div>
+            <TabTitleComponent mainTitle="ACCELERATED" title="Mobile Applications " />
+        </div>
     )
 }
 

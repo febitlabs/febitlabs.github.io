@@ -1,6 +1,10 @@
+import TabTitleComponent from "../Dashboard/TabTitleComponent"
+
 const HealthcareComponent = () => {
     return (
-        <div>healthcare Component</div>
+        <div>
+            <TabTitleComponent mainTitle="WHAT WE DO" title="Healthcare" />
+        </div>
     )
 }
 
