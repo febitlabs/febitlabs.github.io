@@ -1,6 +1,10 @@
+import TabTitleComponent from "../Dashboard/TabTitleComponent"
+
 const ConsultingComponent = () => {
     return (
-        <div>Consulting</div>
+        <div>
+            <TabTitleComponent mainTitle="WHAT WE DO" title="Consulting" />
+        </div>
     )
 }
 

@@ -17,6 +17,8 @@ import OperationsComponent from './what-we-do/OperationsComponent';
 import OptimizationComponent from './what-we-do/OptimizationComponent';
 import InsightsComponent from './Insights/InsightsComponent';
 import Tabs from './Navbar/Tabs';
+import Footer from './Footer/Footer';
+
 
 export {
   Dashboard,
@@ -38,4 +40,5 @@ export {
   AIMLDataopsComponent,
   DevSecOpsAIOpsComponent,
   FounderComponent,
+  Footer
 };
