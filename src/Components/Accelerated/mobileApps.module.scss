@@ -1,0 +1,100 @@
+
+
+.container{
+ width: auto;   
+}
+.slideContent{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 45%;
+}
+.carouselDiv1{
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../public/images/mobile-app-bg-1.jpg');
+}
+.carouselDiv2{
+  height: 100%;
+  width: 100%;
+  background-image: url('../../../public/images/mobile-app-bg-2.jpg');
+}
+.carouselDiv3{
+  height: 100%;
+  width: 100%;
+  background-image: url('../../../public/images/mobile-app-bg-3.jpg');
+}
+.carouselDiv4{
+  height: 100%;
+  width: 100%;
+  background-image: url('../../../public/images/mobile-app-bg-4.jpg');
+}
+.readMore, .readMore:hover{
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    background-color: transparent !important;
+    border: 1px solid #e1e1e1 !important;
+}
+.heading1{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 67px;
+    font-family: Montserrat;
+    color: #ffffff;
+    margin: 0 0 0 0;
+    width: 50%;
+}
+.heading3{
+  color: #ffffff;
+  margin: 0%;
+  font-size: 14px;
+  line-height: 22px;
+}
+.leftCol{
+  margin: 8rem 0 0 8rem;
+  text-align: left;
+}
+.appButton, .appButton:hover{
+  width: 25%;
+  margin-right: .5rem;
+  background-color: transparent !important;
+  border-color: #ffff !important;
+}
+.dialogs{
+  display: flex;
+  color: #ffffff;
+  width: 60%;
+  margin-top: 0%;
+}
+.rightCol{
+  padding: 1rem;
+  animation: slide 5s infinite forwards;
+  animation-delay: .5s;
+  visibility: hidden;
+  opacity: 0;
+  // transition: opacity 500ms ease, visibility 500ms ease;
+}
+@keyframes slide {
+  0% {
+    margin-top: -100%;
+    visibility: hidden;
+    opacity: 0;
+  }
+  15%{
+    // margin-top: -100%;
+    visibility: visible;
+    opacity: 1;
+  }
+  30% {
+    margin-top: 0%;
+  }
+  85%{
+    visibility: visible;
+    opacity: 1;
+  }
+  100%{
+    margin-top: 0%;
+    // visibility: hidden;   
+    opacity: 0;
+  }
+}

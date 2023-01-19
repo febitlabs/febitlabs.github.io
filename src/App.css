@@ -42,7 +42,7 @@
 }
 .p-carousel-next{
   position: absolute !important;
- right: 0 !important;
+  right: 0 !important;
 }
 .p-carousel-indicators{
   display: none !important;
